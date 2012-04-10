@@ -17,3 +17,11 @@ The server is written in Java using Swing for a GUI. It listens on ports 9000 to
 ===Current TODO===
 Currently working on:
   * Use TCP instead of UDP for control packets.
+
+<wiki:comment>
+Private TODO:
+NEED COMPASS.
+implement sending a list of waypoints. Use codes for new_list [], insert_at [points][locations],restart,stop,pause,resume,go
+write server methods to draw waypoints on map, perhaps allow creating route with mouse, click 2 points then again to insert, show current location on map, track phone over waypoints.
+write 'driver' threads for things like navigation/exploration/autonomy. 
+</wiki:comment>
