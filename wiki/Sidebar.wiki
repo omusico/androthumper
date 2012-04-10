@@ -5,3 +5,6 @@
 </ul>
 
 <wiki:toc max_depth="1" />
+
+  * [http://code.google.com/p/androthumper/wiki/Home Home]
+  * [http://code.google.com/p/androthumper/wiki/IOIOconfiguration IOIO Configuration]
