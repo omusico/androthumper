@@ -1,3 +1,4 @@
 = Introduction =
-  [http://code.google.com/p/androthumper/wiki/Home Home]
-  [http://code.google.com/p/androthumper/wiki/IOIOconfiguration IOIO Configuration]
+<ul>
+  <li>[http://code.google.com/p/androthumper/wiki/Home Home]</li>
+  <li>[http://code.google.com/p/androthumper/wiki/IOIOconfiguration IOIO Configuration]</li>
