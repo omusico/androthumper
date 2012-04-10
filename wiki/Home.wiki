@@ -1,19 +1,19 @@
 #sidebar Sidebar
 
-= Introduction =
+=Introduction=
 
 AndroThumper is robotics chassis and hardware controller controlled via a IOIO. It can use bluetooth zeemotes to drive, or it can accept command packets from a server. It can send back a camera feed to the server, along with sensor details from the accelerometer and GPS engine.  
 
 
-= Robot Details =
+==Robot Details==
 The robot is based of a 6WD Wild Thumper chassis. It uses a Pololu 2s12v10 to drive the motors, and a IOIO to talk to the phone.
 
-= Client Details = 
+==Client Details== 
 The client should run on any Android device. It sends packets to the server containing image slices, sensor information, and GPS/Location information. It receives packets from the server to control its features, such as enabling the camera feed, and to send commands to the motor driver to make it move.
 
-= Server Details = 
+==Server Details== 
 The server is written in Java using Swing for a GUI. It listens on ports 9000 to 9005. It can listen to controller event from XBox 360 controllers and forward this information to the phone to drive it. It has check boxes to enable certain features.
 
-= Current TODO = 
+==Current TODO== 
 Currently working on:
   * Use TCP instead of UDP for control packets.
