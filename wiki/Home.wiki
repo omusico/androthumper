@@ -14,6 +14,8 @@ The client should run on any Android device. It sends packets to the server cont
 ===Server Details=== 
 The server is written in Java using Swing for a GUI. It listens on ports 9000 to 9005. It can listen to controller event from XBox 360 controllers and forward this information to the phone to drive it. It has check boxes to enable certain features.
 
+It uses a mapping library from Unfolding Maps (todo link) to provide an easy way to display routing and position information
+
 <wiki:comment>
 Private TODO:
 NEED COMPASS.
