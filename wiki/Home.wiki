@@ -18,6 +18,8 @@ The server is written in Java using Swing for a GUI. It listens on ports 9000 to
 
 It uses a mapping library from [http://unfoldingmaps.org/ Unfolding Maps] to provide an easy way to display routing and position information, and allows you to insert a start point and destination, and using [http://developer.mapquest.com/web/products/deprecated/java MapQuest] APIs, will display a road route in waypoints
 
+You can read more about the servers and clients in the [http://code.google.com/p/androthumper/wiki/Software software] section.
+
 <wiki:comment>
 Private TODO:
 NEED COMPASS.
