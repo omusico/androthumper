@@ -2,11 +2,11 @@
 
 =Introduction=
 
-[http://code.google.com/p/androthumper/ AndroThumper] is robotics chassis and hardware controller controlled via a [http://proto-pic.co.uk/ioio-for-android-new/ IOIO]. It can use bluetooth zeemotes to drive, or it can accept command packets from a server. It can send back a camera feed to the server, along with sensor details from the accelerometer and GPS engine.  
+[http://code.google.com/p/androthumper/ AndroThumper] is robotics chassis and hardware controller controlled via a [http://proto-pic.co.uk/ioio-for-android-new/ IOIO]. It can use bluetooth zeemotes to drive, it can accept command packets from a server, and is planned to have RC override features. It can send back a camera feed to the server, along with sensor details from the accelerometer, GPS (location and status) and Compass.  
 
 
 ===Robot Details===
-The robot is based of a [http://proto-pic.co.uk/dagu-wild-thumper-6wd-all-terrain-chassis-black-34-1/ 6WD Wild Thumper chassis]. It uses the  [http://proto-pic.co.uk/wild-thumper-controller-board/ Wild Thumper motor controller], talking to the IOIO via UART. Its powered by one or more 7.2v RC car batteries. 
+The robot is based on a [http://proto-pic.co.uk/dagu-wild-thumper-6wd-all-terrain-chassis-black-34-1/ 6WD Wild Thumper chassis]. It uses the  [http://proto-pic.co.uk/wild-thumper-controller-board/ Wild Thumper motor controller], talking to the IOIO via UART. Its powered by one or more 7.2v RC car batteries. 
 
 ===Client Details=== 
 The client should run on any Android device. It sends packets to the server containing image slices, sensor information, and GPS/Location information. It receives packets from the server to control its features, such as enabling the camera feed, receiving GPS waypoints, and to send commands to the motor driver to make it move.
