@@ -5,3 +5,8 @@
    * [http://code.google.com/p/androthumper/wiki/IOIO_Configuration IOIO Configuration]
    * [http://code.google.com/p/androthumper/wiki/Chassis Chassis]
    * [http://code.google.com/p/androthumper/wiki/Motor_Driver Motor Driver]
+ * [http://code.google.com/p/androthumper/wiki/Software Software]
+   * [http://code.google.com/p/androthumper/wiki/Android_Client Android Client]
+   * [http://code.google.com/p/androthumper/wiki/PC_Server PC Server]
+   * [http://code.google.com/p/androthumper/wiki/Android_Server Android Server]
+   * [http://code.google.com/p/androthumper/wiki/Motor_Driver_Controller Motor Driver Controller]
