@@ -1,5 +1,4 @@
-#Robot hardware (IOIO, Chassis, Controller).
-
+#summary Robot hardware (IOIO, Chassis, Controller).
 = Hardware =
 
 The hardware of the the robot consists of the IOIO, the Wild Thumper chassis, and the Wild Thumper motor controller.
