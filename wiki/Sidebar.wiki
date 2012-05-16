@@ -2,9 +2,7 @@
 <li class="treeleaf">[http://code.google.com/p/androthumper/wiki/Home Home]</li>
 <li>[http://code.google.com/p/androthumper/wiki/IOIOconfiguration IOIO Configuration]</li>
 
-List:
- * Something
- * Something
- * Something
- ## something else
- ## something else again
+ * [http://code.google.com/p/androthumper/wiki/Home Home]
+ * Something else
+   * sub list
+   * another sub list 
