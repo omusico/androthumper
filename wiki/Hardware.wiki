@@ -1,4 +1,4 @@
-#Robot hardware (IOIO, Chassis, Controller)
+#Robot hardware (IOIO, Chassis, Controller).
 
 = Hardware =
 
