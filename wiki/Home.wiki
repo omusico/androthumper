@@ -14,7 +14,7 @@ The client should run on any Android device. It sends packets to the server cont
 ===Server Details=== 
 The server is written in Java using Swing for a GUI. It listens on ports 9000 to 9005. It can listen to controller event from XBox 360 controllers and forward this information to the phone to drive it. There is an Android server in the works, but development on this is not a priority, thus slow
 
-It uses a mapping library from Unfolding Maps (http://unfoldingmaps.org/) to provide an easy way to display routing and position information, and allows you to insert a start point and destination, and using MapQuest APIs, will display a road route in waypoints
+It uses a mapping library from Unfolding Maps (http://unfoldingmaps.org/) to provide an easy way to display routing and position information, and allows you to insert a start point and destination, and using MapQuest APIs (http://developer.mapquest.com/web/products/deprecated/java), will display a road route in waypoints
 
 <wiki:comment>
 Private TODO:
