@@ -6,15 +6,15 @@ AndroThumper is robotics chassis and hardware controller controlled via a IOIO. 
 
 
 ===Robot Details===
-The robot is based of a 6WD Wild Thumper chassis. It uses a Pololu 2s12v10 to drive the motors, and a IOIO to talk to the phone. Its powered by one or more 7.2v RC car batteries.
+The robot is based of a 6WD Wild Thumper chassis. It uses the Wild Thumper motor controller, talking to the IOIO via UART. Its powered by one or more 7.2v RC car batteries. 
 
 ===Client Details=== 
-The client should run on any Android device. It sends packets to the server containing image slices, sensor information, and GPS/Location information. It receives packets from the server to control its features, such as enabling the camera feed, and to send commands to the motor driver to make it move.
+The client should run on any Android device. It sends packets to the server containing image slices, sensor information, and GPS/Location information. It receives packets from the server to control its features, such as enabling the camera feed, receiving GPS waypoints, and to send commands to the motor driver to make it move.
 
 ===Server Details=== 
-The server is written in Java using Swing for a GUI. It listens on ports 9000 to 9005. It can listen to controller event from XBox 360 controllers and forward this information to the phone to drive it. It has check boxes to enable certain features.
+The server is written in Java using Swing for a GUI. It listens on ports 9000 to 9005. It can listen to controller event from XBox 360 controllers and forward this information to the phone to drive it. There is an Android server in the works, but development on this is not a priority, thus slow
 
-It uses a mapping library from Unfolding Maps (todo link) to provide an easy way to display routing and position information
+It uses a mapping library from Unfolding Maps (http://unfoldingmaps.org/) to provide an easy way to display routing and position information, and allows you to insert a start point and destination, and using MapQuest APIs, will display a road route in waypoints
 
 <wiki:comment>
 Private TODO:
