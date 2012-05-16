@@ -1,5 +1,5 @@
 = Introduction =
-<li>[http://code.google.com/p/androthumper/wiki/Home Home]</li>
+<li class="treeleaf">[http://code.google.com/p/androthumper/wiki/Home Home]</li>
 <li>[http://code.google.com/p/androthumper/wiki/IOIOconfiguration IOIO Configuration]</li>
 
 <ul>
