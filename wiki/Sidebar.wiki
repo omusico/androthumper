@@ -1,8 +1,7 @@
 = Introduction =
-<li class="treeleaf">[http://code.google.com/p/androthumper/wiki/Home Home]</li>
-<li>[http://code.google.com/p/androthumper/wiki/IOIOconfiguration IOIO Configuration]</li>
 
  * [http://code.google.com/p/androthumper/wiki/Home Home]
- * Something else
-   * sub list
-   * another sub list 
+ * [http://code.google.com/p/androthumper/wiki/Hardware Hardware]
+   * [http://code.google.com/p/androthumper/wiki/IOIO_Configuration IOIO Configuration]
+   * Chassis
+   * Motor Driver
