@@ -2,7 +2,7 @@
 
 =Introduction=
 
-AndroThumper is robotics chassis and hardware controller controlled via a IOIO (http://proto-pic.co.uk/ioio-for-android-new/). It can use bluetooth zeemotes to drive, or it can accept command packets from a server. It can send back a camera feed to the server, along with sensor details from the accelerometer and GPS engine.  
+[http://code.google.com/p/androthumper/ AndroThumper] is robotics chassis and hardware controller controlled via a IOIO (http://proto-pic.co.uk/ioio-for-android-new/). It can use bluetooth zeemotes to drive, or it can accept command packets from a server. It can send back a camera feed to the server, along with sensor details from the accelerometer and GPS engine.  
 
 
 ===Robot Details===
