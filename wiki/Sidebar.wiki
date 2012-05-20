@@ -13,7 +13,7 @@
            * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_Camera Camera Thread]
            * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_Sensor Sensor Thread]
            * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_IOIO IOIO Thread]
-         * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_GPS GPS Thread]
+           * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_GPS GPS Thread]
        * [http://code.google.com/p/androthumper/wiki/Android_Client_Managers_Drivers DriverManager]
    * [http://code.google.com/p/androthumper/wiki/PC_Server PC Server]
      * [http://code.google.com/p/androthumper/wiki/PC_Server_Threads Threads]
