@@ -13,6 +13,8 @@
        * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_IOIO IOIO Thread]
        * [http://code.google.com/p/androthumper/wiki/Android_Client_Thread_GPS GPS Thread]
      * [http://code.google.com/p/androthumper/wiki/Android_Client_Managers Managers]
+       *[http://code.google.com/p/androthumper/wiki/Android_Client_Managers_Thread ThreadManager]
+       * [http://code.google.com/p/androthumper/wiki/Android_Client_Managers_Drivers DriverManager]
    * [http://code.google.com/p/androthumper/wiki/PC_Server PC Server]
      * [http://code.google.com/p/androthumper/wiki/PC_Server_Threads Threads]
      * [http://code.google.com/p/androthumper/wiki/PC_Managers Managers]
