@@ -3,10 +3,7 @@
 
 The hardware of the the robot consists of the IOIO, the Wild Thumper chassis, and the Wild Thumper motor controller.
 
-
 = Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+   * [http://code.google.com/p/androthumper/wiki/IOIO_Configuration IOIO Configuration]
+   * [http://code.google.com/p/androthumper/wiki/Chassis Chassis]
+   * [http://code.google.com/p/androthumper/wiki/Motor_Driver Motor Driver]
