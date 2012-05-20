@@ -6,7 +6,6 @@
 
 All four pieces are being written (the sketch for the motor driver, android client/server, PC server) and you can read about them in the subsections here.
 
-
 = Details =
 
  * [http://code.google.com/p/androthumper/wiki/Software Software]
@@ -23,8 +22,3 @@ All four pieces are being written (the sketch for the motor driver, android clie
      * [http://code.google.com/p/androthumper/wiki/PC_Managers Managers]
    * [http://code.google.com/p/androthumper/wiki/Android_Server Android Server]
    * [http://code.google.com/p/androthumper/wiki/Motor_Driver_Controller Motor Driver Controller]
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
