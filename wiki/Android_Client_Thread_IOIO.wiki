@@ -2,12 +2,18 @@
 
 = IOIOThread =
 
-This is the class where the connection to the IOIO is established, its variables are set up, and the ioio's main loop executes.
+This is the class where the connection to the IOIO is established, its variables are set up, and the IOIO's main loop executes. The IOIOThread has no direct socket connection to the Server, thus is only available to be interacted with to the Drivers and the Threads. 
 
+== Talking to IOIOThread ==
 
-= Details =
+IOIOThread uses a byte[] to set input flags, such as which buttons are pressed, what position the joysticks are in, and which direction they pushed. The length of this array is stored in Conts, as are the button positions, the left/right channel positions, and the left/right direction positions. No index in this array should be accessed with magic numbers. 
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+IOIOThread exposes this input via an <override(byte[] input)> method. 
+
+<NTS: should be either synced, or buffered>
+
+== Connecting to the IOIO ==
+
+The IOIO is managed in a private inner thread. This allows the IOIO to continue to run isolated from the main thread, and will allow it to pause/fail without bringing down the whole app. 
+
+An instance to the IOIO is created with the static method IOIOFactory.create(). Then, using ioio.waitForConnect(), the ioio thread will block until a connection to the IOIO has been established. At this point, the setup method is called, which opens the desired pins in desired modes, then the actual processing loop. All this is performed in try/catch blocks, so if at any point the IOIO becomes disconnected, the error is caught and the outer thread restarts (wait for connect, setup, etc).
