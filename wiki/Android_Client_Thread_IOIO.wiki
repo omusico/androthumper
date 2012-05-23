@@ -1,8 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Thread that manages the connection and manipulation of the IOIO.
 
-= Introduction =
+= IOIOThread =
 
-Add your content here.
+This is the class where the connection to the IOIO is established, its variables are set up, and the ioio's main loop executes.
 
 
 = Details =
