@@ -1,13 +1,16 @@
-#summary One-sentence summary of this page.
+#summary Managing the Drivers and Threads of the Android application.
 
-= Introduction =
+= Managers =
 
-Add your content here.
+Keeping track of multiple Threads and letting them all interact with each other can be a little tricky. To make it easier, I am using Managers. This is similar to the Facade design pattern. Each Thread or driver holds an instance of its Manager, and it can use it to call methods in the other Drivers, or in threads via the DriverManagers handle on the ThreadManager
+
+Both of the Managers are only available from inside the MainActivity, and are only initialised when the Toggle button is pressed. When the toggle button is unchecked, The Managers tell all their instances to stop. If toggling the button again, the Managers tell their instances to restart to their default states.
 
 
-= Details =
+== Driver Manager ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The DriverManager holds all the instances of the Driver objects, such as the ZeemoteDriver and the WaypointDriver. The DriverManager also has a handle to the instance of the ThreadManager to control the IOIO and other things.
+
+== Thread Manager ==
+
+The ThreadManager holds all the instances of the Threads, such as the CameraThread and the IOIOThread. It allows the threads to call methods in the other Threads, allowing functionality such as providing any Thread the ability to send a string back to the server via the UtilsThread.
