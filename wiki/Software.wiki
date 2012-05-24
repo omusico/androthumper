@@ -2,7 +2,7 @@
 
 = Software =
 
-[http://code.google.com/p/androthumper/ AndroThumper] can be controlled by an connected Android device, an android device/computer that is running the server which the android device is connected to, or with an RC controller connected straight to the motor driver.
+[http://code.google.com/p/androthumper/ AndroThumper] can be controlled by an connected Android device, an android device/computer that is running the server which the android device is connected to, or with an RC controller connected straight to the motor driver. (WIP)
 
 All four pieces are being written (the sketch for the motor driver, android client/server, PC server) and you can read about them in the subsections here.
 
