@@ -2,9 +2,9 @@
 
 = Managers =
 
-Keeping track of multiple Threads and letting them all interact with each other can be a little tricky. To make it easier, I am using Managers. This is similar to the Facade design pattern. Each Thread or driver holds an instance of its Manager, and it can use it to call methods in the other Drivers, or in threads via the DriverManagers handle on the ThreadManager
+Keeping track of multiple Threads and letting them all interact with each other can be a little tricky. To make it easier, I am using Managers. This is similar to the Facade design pattern. Each Thread or driver holds an instance of its Manager, and it can use it to call methods in the other Drivers, or in threads via the driver manager's handle on the thread manager
 
-Both of the Managers are only available from inside the [http://code.google.com/p/androthumper/source/browse/trunk/androthumper/Android_CAR/src/android/ioio/car/MainActivity.java main activity], and are only initialised when the Toggle button is pressed. When the toggle button is unchecked, The Managers tell all their instances to stop. If toggling the button again, the Managers tell their instances to restart to their default states.
+Both of the Managers are only available from inside the [http://code.google.com/p/androthumper/source/browse/trunk/androthumper/Android_CAR/src/android/ioio/car/MainActivity.java main activity], and are only initialised when the Toggle button [http://code.google.com/p/androthumper/source/browse/trunk/androthumper/Android_CAR/src/android/ioio/car/MainActivity.java#166 is pressed]. When the toggle button is unchecked, The Managers tell all their instances to stop. If toggling the button again, the Managers tell their instances to restart to their default states.
 
 
 == [http://code.google.com/p/androthumper/wiki/Android_Client_Managers_Drivers Driver Manager] ==
@@ -13,4 +13,4 @@ The DriverManager holds all the instances of the Driver objects, such as the Zee
 
 == [http://code.google.com/p/androthumper/wiki/Android_Client_Managers_Thread Thread Manager] ==
 
-The ThreadManager holds all the instances of the Threads, such as the CameraThread and the IOIOThread. It allows the threads to call methods in the other Threads, allowing functionality such as providing any Thread the ability to send a string back to the server via the UtilsThread.
+The ThreadManager holds all the instances of the Threads, such as the [http://code.google.com/p/androthumper/source/browse/trunk/androthumper/Android_CAR/src/android/ioio/car/threads/Cam_thread.java camera thread] and the [http://code.google.com/p/androthumper/source/browse/trunk/androthumper/Android_CAR/src/android/ioio/car/threads/IOIO_Thread.java IOIO thread]. It allows the threads to call methods in the other Threads, allowing functionality such as providing any Thread the ability to send a string back to the server via the UtilsThread.
