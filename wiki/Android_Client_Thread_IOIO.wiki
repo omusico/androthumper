@@ -10,8 +10,6 @@ IOIOThread uses a {{{byte[]}}} to set input flags, such as which buttons are pre
 
 IOIOThread exposes this input via an  [http://code.google.com/p/androthumper/source/browse/trunk/androthumper/Android_CAR/src/android/ioio/car/threads/IOIO_Thread.java#166 override method]. 
 
-<NTS: should be either synced, or buffered>
-
 Other classes can also register instances of listeners for updates, such as the WaypointDriver can register a MyCompassListener and receive new compass values every tick of the IOIO.
 
 == Connecting to the IOIO ==
