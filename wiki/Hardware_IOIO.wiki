@@ -29,3 +29,12 @@ My IOIO is on the latest bootloader (allowing BlueTooth connection options) and 
       * _BAUD_      : 9600
       * _PARITY_    : None
       * _STOP BITS_ : Two
+
+  * *GPS Module*
+    *The GPS is connected via UART, allowing sending and receiving on two wires.
+    * Pins:
+      * _RX_        : 3
+      * _TX_        : 4
+      * _BAUD_      : 9600
+      * _PARITY_    : None
+      * _STOP BITS_ : One
