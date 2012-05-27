@@ -8,7 +8,10 @@ Using Java for the program loop is much more powerful than using C in Arduino, p
 
 My IOIO is on the latest bootloader (allowing BlueTooth connection options) and the latest application library.
 
-Connecting devices:
+----
+
+== Connecting devices ==
+
   * Wild Thumper Controller:
     * The WTC is connected via UART, allowing sending and receiving on two wires. 
     * Pins:
