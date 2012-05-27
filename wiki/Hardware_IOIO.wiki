@@ -38,3 +38,13 @@ My IOIO is on the latest bootloader (allowing BlueTooth connection options) and 
       * _BAUD_      : 9600
       * _PARITY_    : None
       * _STOP BITS_ : One
+
+----
+
+==== Nice things about the IOIO ====
+
+Some nice things here
+
+==== Bad things about the IOIO ====
+
+Some bad things here
