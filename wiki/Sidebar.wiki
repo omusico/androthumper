@@ -5,6 +5,12 @@
    * [http://code.google.com/p/androthumper/wiki/IOIO_Configuration IOIO Configuration]
    * [http://code.google.com/p/androthumper/wiki/Chassis Chassis]
    * [http://code.google.com/p/androthumper/wiki/Motor_Driver Motor Driver]
+   * GAP
+   * [http://code.google.com/p/androthumper/wiki/Hardware_Chassis Wild Thumper 6WD Chassis]
+   * [http://code.google.com/p/androthumper/wiki/Hardware_IOIO IOIO]
+   * [http://code.google.com/p/androthumper/wiki/Hardware_CMPS10 CMPS10 Compass Module]
+   * [http://code.google.com/p/androthumper/wiki/Hardware_WTC Wild Thumper Controller]
+   * [http://code.google.com/p/androthumper/wiki/Hardware_GPS GPS]
  * [http://code.google.com/p/androthumper/wiki/Software Software]
    * [http://code.google.com/p/androthumper/wiki/Android_Client Android Client]
      * [http://code.google.com/p/androthumper/wiki/Android_Client_Managers Managers]
