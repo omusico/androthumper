@@ -20,3 +20,12 @@ My IOIO is on the latest bootloader (allowing BlueTooth connection options) and 
       * _BAUD_      : 9600
       * _PARITY_    : None
       * _STOP BITS_ : One
+
+  * *Compass Module*
+    * The compass is connected via UART, allowing sending and receiving on two wires.
+    * Pins:
+      * _RX_        : 9
+      * _TX_        : 10
+      * _BAUD_      : 9600
+      * _PARITY_    : None
+      * _STOP BITS_ : Two
