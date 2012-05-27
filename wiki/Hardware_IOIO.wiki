@@ -1,13 +1,19 @@
 #summary Using the IOIO.
 
-= Introduction =
+= IOIO =
 
-Add your content here.
+The IOIO is the device that makes this project come alive. While it would have been equally possible using an Arduino or something similar, using a IOIO allows me to use Java to program is processing loop, and lets me use all of the advantages of the Android operating system, such as internet access, accelerometer/GPS sensors, and camera. 
 
+Using Java for the program loop is much more powerful than using C in Arduino, proving access to any Java library that is compatible with Android.
 
-= Details =
+My IOIO is on the latest bootloader (allowing BlueTooth connection options) and the latest application library.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Connecting devices:
+  * Wild Thumper Controller:
+    * The WTC is connected via UART, allowing sending and receiving on two wires. 
+    * Pins:
+      * *RX*        : 7
+      * *TX*        : 6
+      * *BAUD*      : 9600
+      * *PARITY*    : None
+      * *STOP BITS* : One
