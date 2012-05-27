@@ -1,9 +1,15 @@
 #summary Robot hardware (IOIO, Chassis, Controller).
 = Hardware =
 
-The hardware of the the robot consists of the IOIO, the Wild Thumper chassis, and the Wild Thumper motor controller.
+The hardware of the the robot consists of the IOIO, the Wild Thumper chassis, and the Wild Thumper motor controller. As the code contains the pin numbers for communicating with the various hardware modules, if this project is to be copied verbatim, the hardware also needs to match.
 
-= Details =
-   * [http://code.google.com/p/androthumper/wiki/IOIO_Configuration IOIO Configuration]
-   * [http://code.google.com/p/androthumper/wiki/Chassis Chassis]
-   * [http://code.google.com/p/androthumper/wiki/Motor_Driver Motor Driver]
+== Components ==
+
+The hardware of the robot consists of various components. There are:
+  * [http://code.google.com/p/androthumper/wiki/Hardware_Chassis Wild Thumper 6WD chassis]
+  * [http://code.google.com/p/androthumper/wiki/Hardware_IOIO IOIO (v1)]
+  * [http://code.google.com/p/androthumper/wiki/Hardware_CMPS10 CMPS10 Compass module]
+  * [http://code.google.com/p/androthumper/wiki/Hardware_WTC Wild Thumper motor controller]
+  * [http://code.google.com/p/androthumper/wiki/Hardware_GPS Adafruit Ultimate GPS module]
+
+The hardware is all detailed in their wiki pages, each with connection/software information, reviews, and advice.
