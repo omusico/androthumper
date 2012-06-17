@@ -6,38 +6,36 @@ The IOIO is the device that makes this project come alive. While it would have b
 
 Using Java for the program loop is much more powerful than using C in Arduino, proving access to any Java library that is compatible with Android.
 
-My IOIO is on the latest bootloader (allowing BlueTooth connection options) and the latest application library.
+My IOIO is on the latest bootloader (allowing Bluetooth connection options) and the latest application library.
 
 ----
 
 == Connecting devices ==
 
   * *Wild Thumper Controller*:
-    * The WTC is connected via UART, allowing sending and receiving on two wires. 
+    * The WTC is connected via TWI. 
     * Pins:
-      * _RX_        : 7
-      * _TX_        : 6
-      * _BAUD_      : 9600
-      * _PARITY_    : None
-      * _STOP BITS_ : One
+      * _TWI MODULE_   : 2
+      * _ADDRESS_      : 1
+
 
   * *Compass Module*
     * The compass is connected via UART, allowing sending and receiving on two wires.
     * Pins:
-      * _RX_        : 9
-      * _TX_        : 10
-      * _BAUD_      : 9600
-      * _PARITY_    : None
-      * _STOP BITS_ : Two
+      * _RX_          : 9
+      * _TX_          : 10
+      * _BAUD_        : 9600
+      * _PARITY_      : None
+      * _STOP BITS_   : Two
 
   * *GPS Module*
     *The GPS is connected via UART, allowing sending and receiving on two wires.
     * Pins:
-      * _RX_        : 3
-      * _TX_        : 4
-      * _BAUD_      : 9600
-      * _PARITY_    : None
-      * _STOP BITS_ : One
+      * _RX_          : 3
+      * _TX_          : 4
+      * _BAUD_        : 9600
+      * _PARITY_      : None
+      * _STOP BITS_   : One
 
 ----
 
